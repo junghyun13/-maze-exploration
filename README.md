@@ -52,7 +52,7 @@ int main(void){
 graph = [] # 2차원 배열로 nxm크기의 미로생성
 for _ in range(n):
     graph.append(list(map(int,input().strip())))
-# 상하좌우
+#상하좌우
 h = [-1, 1, 0, 0]
 w = [0, 0, -1, 1]
 def bfs(x,y):  #deque를 이용하면 ex)love--> 'l' 'o' 'v' 'e'
